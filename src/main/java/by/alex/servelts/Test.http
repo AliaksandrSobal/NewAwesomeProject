@@ -1,0 +1,25 @@
+POST http://localhost:8080/home
+Content-Type: application/x-www-form-urlencoded
+
+
+
+###
+
+
+POST http://localhost:8080/reg
+Content-Type: application/x-www-form-urlencoded
+
+login=test&password=12345678&name=Aliaksandr
+
+###
+
+POST http://localhost:8080/authorization
+Content-Type: application/x-www-form-urlencoded
+
+login=test&password=12345678
+
+###
+
+
+
+
